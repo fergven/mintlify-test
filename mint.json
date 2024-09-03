@@ -22,7 +22,7 @@
   },
   "redirects": [
     {
-      "source": "/",
+      "source": "/introduction",
       "destination": "/landing"
     }
   ],
