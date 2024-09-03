@@ -1,6 +1,10 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "Starter Kit",
+  "modeToggle": {
+    "default": "light",
+    "isHidden": true
+  },
   "logo": {
     "dark": "/logo/venafi_dev_central.png",
     "light": "/logo/venafi_dev_central.png"
@@ -16,6 +20,12 @@
       "to": "#07C983"
     }
   },
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/landing"
+    }
+  ],
   "topbarLinks": [
     {
       "name": "Product",
