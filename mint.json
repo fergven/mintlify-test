@@ -18,6 +18,18 @@
   },
   "topbarLinks": [
     {
+      "name": "Product",
+      "url": "http://localhost:3000/introduction"
+    },
+    {
+      "name": "Resources",
+      "url": "mailto:hi@mintlify.com"
+    },
+    {
+      "name": "Ecosystem",
+      "url": "mailto:hi@mintlify.com"
+    },
+    {
       "name": "Log In",
       "url": "mailto:hi@mintlify.com"
     }
