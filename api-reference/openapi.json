@@ -26264,7 +26264,7 @@
   "servers": [
     {
       "description": "Test server for Developer Hub",
-      "url": "https://api.venafi.cloud"
+      "url": "https://api-dev172.qa.venafi.io"
     }
   ],
   "x-readme": {
