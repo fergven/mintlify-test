@@ -58,9 +58,22 @@
       ]
     },
     {
-      "group": "Guides",
+      "group": "First Level",
       "pages":[
-        "guides/machine-connector-framework"
+        "guides/machine-connector-framework",
+          {
+            "group": "Second Level",
+            "pages": [
+              "guides/test/content-reuse",
+              "quickstart",
+                  {
+                    "group": "Third Level",
+                    "pages": [
+                      "introduction"
+                    ]
+                  }
+                ]
+          }
       ]
     },
     {
