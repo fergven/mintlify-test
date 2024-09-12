@@ -1,54 +1,36 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "Starter Kit",
-  "modeToggle": {
-    "default": "light",
-    "isHidden": true
-  },
   "logo": {
-    "dark": "/logo/venafi_dev_central.png",
-    "light": "/logo/venafi_dev_central.png"
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
   },
-  "search": { "location": "side" },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#2979ff",
-    "light": "#2979ff",
-    "dark": "#2979ff",
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
     }
   },
-  "redirects": [
-    {
-      "source": "/introduction",
-      "destination": "/landing"
-    }
-  ],
   "topbarLinks": [
     {
-      "name": "Product",
-      "url": "http://localhost:3000/introduction"
-    },
-    {
-      "name": "Resources",
-      "url": "mailto:hi@mintlify.com"
-    },
-    {
-      "name": "Ecosystem",
-      "url": "mailto:hi@mintlify.com"
-    },
-    {
-      "name": "Log In",
+      "name": "Support",
       "url": "mailto:hi@mintlify.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Sign Up",
+    "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
-
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
   "anchors": [
     {
       "name": "Documentation",
@@ -69,7 +51,11 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": [
+        "introduction",
+        "quickstart",
+        "development"
+      ]
     },
     {
       "group": "First Level",
@@ -103,7 +89,9 @@
     },
     {
       "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
+      "pages": [
+        "api-reference/introduction"
+      ]
     },
     {
       "group": "Endpoint Examples",
