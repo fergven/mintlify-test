@@ -31,11 +31,11 @@
       "url": "api-reference"
     }
   ],
-  "api": [
+  "api": {
     "playground": {
       "disableProxy": true,
     },
-  ],
+  },
   "anchors": [
     {
       "name": "Documentation",
