@@ -54,7 +54,7 @@
       "url": "https://mintlify.com/community"
     },
     {
-      "name": "Blog",
+      "name": "Test",
       "icon": "newspaper",
       "url": "https://mintlify.com/blog"
     }
@@ -66,6 +66,12 @@
         "introduction",
         "quickstart",
         "development"
+      ]
+    },
+    {
+      "group": "Guides",
+      "pages":[
+        "guides/machine-connector-framework"
       ]
     },
     {
