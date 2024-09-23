@@ -33,7 +33,7 @@
   ],
   "api": {
     "playground": {
-      "disableProxy": true,
+      "disableProxy": true
     }
   }
   "anchors": [
