@@ -34,7 +34,7 @@
   "api": {
     "playground": {
       "disableProxy": true,
-    },
+    }
   }
   "anchors": [
     {
