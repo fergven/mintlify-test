@@ -25,6 +25,11 @@
     "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
+  "api": {
+    "playground": {
+      "disableProxy": true,
+    },
+   }
   "tabs": [
     {
       "name": "API Reference",
